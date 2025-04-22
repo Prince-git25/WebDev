@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .navLinks ul{
+    width: 80%;
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+    list-style: none;
+
+}
+.navLinks ul li{
+    padding: 8px 12px;
+    font-size: 90%;
+    background-color: hsla(0, 0%, 75%,0.2);
+    color: hsla(0, 0%, 17%,0.9);
+    border-radius: 20px;
+}
+.navLinks ul a{
+    text-decoration: none;
+    color: white;
+}
+.active{
+    background-color: white;
+    color: black;
+}
